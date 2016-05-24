@@ -14,7 +14,30 @@ void MasinaManager::AddCar(Masina* m) {
     carList.push_back(m);
 }
 void MasinaManager::DeleteCar(int id) {
-
+    int sz = carList.size();
+    for(int i=id;i+1<sz;i++) {
+        carList[i] = carList[i + 1];
+    }
+    carList.pop_back();
+    currentCarIndex = 0;
+}
+void MasinaManager::DeleteCar(Masina* m) {
+    int index=0;
+    for(auto masina: carList) {
+            if ((*masina) == (*m)) {
+                DeleteCar(index);
+            }
+            index++;
+    }
+}
+void MasinaManager::ShadowCar(int id) {
+    carList[id]->setState(Epuizat);
+}
+void MasinaManager::ShadowCar(Masina* m) {
+    for(auto masina: carList) if ((*masina) == (*m))
+    {
+        masina->setState(Epuizat);
+    }
 }
 
 Masina* MasinaManager::GetCurrentCar() {

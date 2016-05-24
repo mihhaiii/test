@@ -24,6 +24,7 @@ void Label::SetVisible(bool f) {
 }
 
 void Label::SetColor(string c) {
+    if (c=="black") text.setColor(sf::Color::Black);
     if (c=="red") text.setColor(sf::Color::Red);
     if (c=="blue") text.setColor(sf::Color::Blue);
     if (c=="green") text.setColor(sf::Color::Green);

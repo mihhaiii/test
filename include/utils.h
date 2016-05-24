@@ -14,7 +14,11 @@ enum Models {
 enum ButtonAction {
     ShowNextCarAction, ShowPrevCarAction, BackAction, ExitAction, ShowCarsAction, ViewCarAction, ShowMenuAction, ShowSplashAction,
     ShowWarningWindowAction, NothingAction, ShowLogSreenAction, ShowRegisterScreenAction, ShowLogInfoAction, ShowDetailsAction, ShowCarScreenAction,
-    ShowMyCartAction
+    ShowMyCartAction, BuyCarAction,  DeleteFromCartAction
+};
+
+enum CarState {
+InVanzare, Epuizat
 };
 
 enum Fuel
@@ -22,6 +26,8 @@ enum Fuel
     Gasoline,
     Diesel
 };
+
+extern const string CarState2Str[];
 
 extern const string CarFiles[];
 

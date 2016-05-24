@@ -3,7 +3,9 @@
 MyCartScreen::MyCartScreen() :
     backButtonObj("images/backbutton.png"),
     upButtonObj("images/upButton.png"),
-    downButtonObj("images/downButton.png")
+    downButtonObj("images/downButton.png"),
+    buyButton("images/cumparamasina.png"),
+    deleteButton("images/scoatedincos.png")
 {
     _texture.loadFromFile("images/background.png");
     _sprite.setTexture(_texture);
@@ -11,10 +13,14 @@ MyCartScreen::MyCartScreen() :
     backButtonObj.SetPosition(10,540);
     upButtonObj.SetPosition(300,30);
     downButtonObj.SetPosition(300,540);
+    buyButton.SetPosition(550,100);
+    deleteButton.SetPosition(550, 160);
 
     backButtonObj.SetAction(BackAction);
     upButtonObj.SetAction(ShowPrevCarAction);
     downButtonObj.SetAction(ShowNextCarAction);
+    buyButton.SetAction(BuyCarAction);
+    deleteButton.SetAction(DeleteFromCartAction);
 
     warningLabelObj.SetText("Nu exista masini de afisat");
     warningLabelObj.SetStyle("normal");
@@ -25,7 +31,7 @@ MyCartScreen::MyCartScreen() :
 }
 
 
-ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user)
+ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user, MasinaManager* storeCars)
 {
     MasinaManager* mm = user->getCarList();
 
@@ -33,6 +39,8 @@ ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user)
     buttons.push_back(&backButtonObj);
     buttons.push_back(&upButtonObj);
     buttons.push_back(&downButtonObj);
+    buttons.push_back(&deleteButton);
+    buttons.push_back(&buyButton);
 
     for(int i=0;i<5;i++)
        boxes.push_back(new CheckBox());
@@ -46,6 +54,8 @@ ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user)
    boxes[4]->setText("SUV");
    boxes[0]->setCheck(true);
 
+
+   Masina *m = mm->GetCurrentCar();
     while(1)
     {
           sf::Event event;
@@ -77,6 +87,29 @@ ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user)
                             if (boxes[2]->getCheck()) mm->moveNext_MasinaSport();
                             if (boxes[3]->getCheck()) mm->moveNext_MasinaDeCurse();
                             if (boxes[4]->getCheck()) mm->moveNext_SUV();
+                        }
+                        if (button->GetAction() == BuyCarAction)
+                        {
+
+                            // sterg masina din magazin si din cos
+
+                            if (m!=NULL)
+                            {
+                                 ShowSuccess(window);
+
+                                mm->DeleteCar(mm->getCurrentCarIndex());
+                                storeCars->DeleteCar(m);
+                            }
+
+                            return ShowMenuAction;
+
+                        }
+                        if (button->GetAction() == DeleteFromCartAction)
+                        {
+                            if (m!=NULL)
+                            {
+                                mm->DeleteCar(mm->getCurrentCarIndex());
+                            }
                         }
                     }
                     for(int i=0;i<5;i++)
@@ -116,7 +149,7 @@ ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user)
         for(auto box:boxes) box->show(window);
 
         warningLabelObj.SetVisible(false);
-        Masina *m = mm->GetCurrentCar();
+        m = mm->GetCurrentCar();
         for(int i=0;i<5;i++)
             if (boxes[i]->getCheck())
         {
@@ -153,6 +186,35 @@ ButtonAction MyCartScreen::Show(sf::RenderWindow& window, User* user)
 
     }
     return BackAction;
+}
+
+void MyCartScreen::ShowSuccess(sf::RenderWindow& window)
+{
+    Label success;
+    success.SetText("Achizitionare reusita!");
+    success.SetStyle("normal");
+    success.SetCharacterSize(24);
+    success.SetColor("green");
+    success.SetPosition(250,230);
+
+    sf::Texture tex;
+    tex.loadFromFile("images/success.jpg");
+    sf::Sprite spr;
+    spr.setTexture(tex);
+
+    window.clear();
+    window.draw(spr);
+    success.Show(window);
+    window.display();
+    sf::Event event;
+    while(1)
+    {
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::MouseButtonPressed || event.type == sf::Event::KeyPressed
+                || event.type == sf::Event::Closed) return;
+        }
+    }
 }
 
 

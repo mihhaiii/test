@@ -14,7 +14,10 @@ Masina::Masina()
      nrMasini++;
     id  = nrMasini;
     _sprite.setPosition(sf::Vector2f(150,200));
+
+    carState =  InVanzare;
 }
+
 
 string Masina::getFilename() {
     return _filename;
@@ -34,6 +37,8 @@ Masina::Masina(Brands s, Models t, int a, int b) :
    marca(s), model(t), pret(a), an(b)  {
     nrMasini++;
     id  = nrMasini;
+
+    carState =  InVanzare;
 }
 
 
@@ -101,6 +106,8 @@ void Masina::showInfo(sf::RenderWindow& window)
 
         text.setPosition(sf::Vector2f(350,20));
         window.draw(text);
+
+
 }
 void Masina::setImage(string file) {
     _texture.loadFromFile(file);
@@ -112,11 +119,23 @@ string Masina::toName() {
     return "Masina";
 }
 
+int Masina::getId() {
+    return id;
+}
+
 void Masina::ShowDetail(sf::RenderWindow&)
 {
 
 }
 
+
+void Masina::setState(CarState s) {
+    carState = s;
+    _sprite.setColor(sf::Color::Black);
+}
+CarState Masina::getState() {
+    return carState;
+}
 
 
 int Masina::nrMasini = 0;

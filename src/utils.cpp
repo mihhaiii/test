@@ -78,6 +78,11 @@ string int2str(int x){
     return s;
 }
 
+const string CarState2Str[] = {
+    "În vînzare",
+    "Stoc epuizat"
+};
+
 
 
 void showText(string str, sf::RenderWindow& window, int x, int y)

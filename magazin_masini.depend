@@ -2295,7 +2295,7 @@
 	"Limuzina.h"
 	"MyCart.h"
 
-1464079816 c:\users\mihai\desktop\car-store1-master\include\masina.h
+1464132312 c:\users\mihai\desktop\car-store1-master\include\masina.h
 	<iostream>
 	<string>
 	<map>
@@ -2689,7 +2689,7 @@
 	<string>
 	<vector>
 
-1464079816 c:\users\mihai\desktop\car-store1-master\include\utils.h
+1464133899 c:\users\mihai\desktop\car-store1-master\include\utils.h
 	<string>
 	"SFML/Graphics.hpp"
 
@@ -2771,12 +2771,12 @@
 	<bits/stdc++.h>
 	"SFML/Graphics.hpp"
 
-1464125403 c:\users\mihai\desktop\car-store1-master\include\masinamanager.h
+1464134420 c:\users\mihai\desktop\car-store1-master\include\masinamanager.h
 	<bits/stdc++.h>
 	"SFML/Graphics.hpp"
 	"Masina.h"
 
-1464079816 c:\users\mihai\desktop\car-store1-master\include\displaycarsscreen.h
+1464130401 c:\users\mihai\desktop\car-store1-master\include\displaycarsscreen.h
 	<bits/stdc++.h>
 	"SFML/Graphics.hpp"
 	"Masina.h"
@@ -2810,7 +2810,7 @@
 	"Label.h"
 	"User.h"
 
-1464122730 c:\users\mihai\desktop\car-store1-master\include\mycartscreen.h
+1464135708 c:\users\mihai\desktop\car-store1-master\include\mycartscreen.h
 	<bits/stdc++.h>
 	"SFML/Graphics.hpp"
 	"Masina.h"
@@ -2850,7 +2850,7 @@
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\button.cpp
 	"Button.h"
 
-1464122270 source:c:\users\mihai\desktop\car-store1-master\src\carscreen.cpp
+1464129803 source:c:\users\mihai\desktop\car-store1-master\src\carscreen.cpp
 	"CarScreen.h"
 
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\checkbox.cpp
@@ -2862,13 +2862,13 @@
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\checker.cpp
 	"Checker.h"
 
-1464079816 source:c:\users\mihai\desktop\car-store1-master\src\displaycarsscreen.cpp
+1464134198 source:c:\users\mihai\desktop\car-store1-master\src\displaycarsscreen.cpp
 	"DisplayCarsScreen.h"
 
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\formfield.cpp
 	"FormField.h"
 
-1464117747 source:c:\users\mihai\desktop\car-store1-master\src\label.cpp
+1464134338 source:c:\users\mihai\desktop\car-store1-master\src\label.cpp
 	"Label.h"
 
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\limuzina.cpp
@@ -2880,13 +2880,13 @@
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\logscreen.cpp
 	"LogScreen.h"
 
-1464122589 source:c:\users\mihai\desktop\car-store1-master\src\magazin.cpp
+1464131279 source:c:\users\mihai\desktop\car-store1-master\src\magazin.cpp
 	"Magazin.h"
 	"Masina.h"
 	<ctime>
 	<random>
 
-1464118136 source:c:\users\mihai\desktop\car-store1-master\src\masina.cpp
+1464132257 source:c:\users\mihai\desktop\car-store1-master\src\masina.cpp
 	"Masina.h"
 	<ctime>
 	<random>
@@ -2894,7 +2894,7 @@
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\masinadecurse.cpp
 	"MasinaDeCurse.h"
 
-1464125294 source:c:\users\mihai\desktop\car-store1-master\src\masinamanager.cpp
+1464135311 source:c:\users\mihai\desktop\car-store1-master\src\masinamanager.cpp
 	"MasinaManager.h"
 
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\masinasport.cpp
@@ -2907,7 +2907,7 @@
 	<iostream>
 	"MyCart.h"
 
-1464126584 source:c:\users\mihai\desktop\car-store1-master\src\mycartscreen.cpp
+1464136775 source:c:\users\mihai\desktop\car-store1-master\src\mycartscreen.cpp
 	"MyCartScreen.h"
 
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\randomevent.cpp
@@ -2951,7 +2951,7 @@
 1464079816 source:c:\users\mihai\desktop\car-store1-master\src\usermanager.cpp
 	"UserManager.h"
 
-1464079816 source:c:\users\mihai\desktop\car-store1-master\src\utils.cpp
+1464133889 source:c:\users\mihai\desktop\car-store1-master\src\utils.cpp
 	<string>
 	"utils.h"
 

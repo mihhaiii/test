@@ -3,7 +3,7 @@
 
 CarScreen::CarScreen()
 :backButtonObj("images/backbutton.png")
-,buyCarButtonObj("images/cumparamasina.png")
+,buyCarButtonObj("images/adaugaincosbutton.png")
 {
     _texture.loadFromFile("images/background1.png");
     _sprite.setTexture(_texture);

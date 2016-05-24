@@ -215,7 +215,7 @@ void Magazin::ShowCarScreen()
 void Magazin::ShowMyCartScreen()
  {
     MyCartScreen mcs;
-    ButtonAction res = mcs.Show(_mainWindow, _userManager.LoggedInUser());
+    ButtonAction res = mcs.Show(_mainWindow, _userManager.LoggedInUser(), &_carManager);
     switch(res)
     {
 

@@ -23,15 +23,22 @@ class Masina
         Models getModel();
         int getPret();
         int getAn();
+        int getId();
         string getFilename();
         void setFilename(string);
         void setImage(string);
+        void setState(CarState);
+        CarState getState();
         virtual string toName();
 
         virtual void showImage(sf::RenderWindow&);
         virtual void showInfo(sf::RenderWindow&);
 
         virtual void ShowDetail(sf::RenderWindow&);
+
+        bool operator==(Masina& other) {
+                return id == other.getId();
+        }
 
     protected:
 
@@ -41,6 +48,7 @@ class Masina
         int pret;
         int an;
         int id;
+        CarState carState;
 
         static int nrMasini;
 

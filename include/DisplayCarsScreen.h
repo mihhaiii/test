@@ -30,6 +30,7 @@ class DisplayCarsScreen
         sf::Sprite _sprite;
 
         Button leftButtonObj, rightButtonObj, detailsButtonObj, backButtonObj;
+        Label text;
         vector<CheckBox*> boxes;
 };
 

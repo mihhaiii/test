@@ -13,11 +13,14 @@ DisplayCarsScreen::DisplayCarsScreen() :
     rightButtonObj.SetPosition(720,300);
     detailsButtonObj.SetPosition(300,500);
     backButtonObj.SetPosition(10,540);
+      text.SetPosition(330,560);
 
     leftButtonObj.SetAction(ShowPrevCarAction);
     rightButtonObj.SetAction(ShowNextCarAction);
     detailsButtonObj.SetAction(ShowCarScreenAction);
     backButtonObj.SetAction(BackAction);
+
+
 }
 
 DisplayCarsScreen::~DisplayCarsScreen()
@@ -133,7 +136,13 @@ ButtonAction DisplayCarsScreen::Show(sf::RenderWindow& window, MasinaManager* mm
             boxes[i]->show(window);
         }
 
-        showText(int2str(mm->getCurrentCarIndex()), window, 25,25);
+        showText(int2str(mm->getCurrentCarIndex() + 1), window, 25,25);
+        text.SetText("Disponibilitate: " + CarState2Str[mm->GetCurrentCar()->getState()]);
+        text.SetCharacterSize(18);
+        text.SetStyle("normal");
+        if (mm->GetCurrentCar()->getState() ==Epuizat) text.SetColor("red"); else text.SetColor("black");
+
+        text.Show(window);
 
         window.display();
     }
