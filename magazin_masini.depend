@@ -1,0 +1,2971 @@
+# depslib dependency file v1.0
+1463712929 source:c:\users\mihai\desktop\magazin_masini\main.cpp
+	<iostream>
+	<string>
+	<map>
+	"magazin.h"
+
+1463763310 c:\users\mihai\desktop\magazin_masini\include\magazin.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"masina.h"
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"SplashScreen.h"
+	"LogInfoScreen.h"
+	"LogScreen.h"
+	"RegisterScreen.h"
+	"Menu.h"
+	"Screen.h"
+	"UserManager.h"
+	"MasinaManager.h"
+	"DisplayCarsScreen.h"
+	"User.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"CarScreen.h"
+
+1463716502 c:\users\mihai\desktop\magazin_masini\include\masina.h
+	<iostream>
+	<string>
+	<map>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1463717671 source:c:\users\mihai\desktop\magazin_masini\src\masina.cpp
+	"Masina.h"
+	<ctime>
+	<random>
+
+1463227495 c:\users\mihai\desktop\magazin_masini\utils.h
+	<string>
+	"SFML/Graphics.hpp"
+
+1463773641 source:c:\users\mihai\desktop\magazin_masini\src\magazin.cpp
+	"Magazin.h"
+	"Masina.h"
+	<ctime>
+	<random>
+
+1463235112 source:c:\users\mihai\desktop\magazin_masini\utils.cpp
+	<string>
+	"utils.h"
+
+1463757174 source:c:\users\mihai\desktop\magazin_masini\src\user.cpp
+	"User.h"
+
+1463757154 c:\users\mihai\desktop\magazin_masini\include\user.h
+	<string>
+	"UserManager.h"
+
+1463757633 c:\users\mihai\desktop\magazin_masini\include\usermanager.h
+	"User.h"
+	<bits/stdc++.h>
+
+1463757731 source:c:\users\mihai\desktop\magazin_masini\src\usermanager.cpp
+	"UserManager.h"
+
+1463003606 c:\users\mihai\desktop\magazin_masini\include\splashscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1463003798 source:c:\users\mihai\desktop\magazin_masini\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1463679371 source:c:\users\mihai\desktop\magazin_masini\src\loginfoscreen.cpp
+	"LogInfoScreen.h"
+
+1463679375 c:\users\mihai\desktop\magazin_masini\include\loginfoscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+
+1463773124 c:\users\mihai\desktop\magazin_masini\include\logscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"User.h"
+	<Checker.h>
+
+1463773666 c:\users\mihai\desktop\magazin_masini\include\registerscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"Checker.h"
+
+1463773302 source:c:\users\mihai\desktop\magazin_masini\src\logscreen.cpp
+	"LogScreen.h"
+
+1463773800 source:c:\users\mihai\desktop\magazin_masini\src\registerscreen.cpp
+	"RegisterScreen.h"
+
+1463709200 c:\users\mihai\desktop\magazin_masini\include\menu.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+	"Button.h"
+
+1463715284 source:c:\users\mihai\desktop\magazin_masini\src\menu.cpp
+	"Menu.h"
+
+1463078568 c:\users\mihai\desktop\magazin_masini\include\screen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1463090030 c:\users\mihai\desktop\magazin_masini\include\masinamanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+
+1463090086 source:c:\users\mihai\desktop\magazin_masini\src\masinamanager.cpp
+	"MasinaManager.h"
+
+1463079950 source:c:\users\mihai\desktop\magazin_masini\src\screen.cpp
+	"Screen.h"
+
+1463764002 source:c:\users\mihai\desktop\magazin_masini\src\displaycarsscreen.cpp
+	"DisplayCarsScreen.h"
+
+1463713921 c:\users\mihai\desktop\magazin_masini\include\displaycarsscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+
+1463077850 c:\users\mihai\desktop\magazin_masini\include\masinamanger.h
+
+1463677706 c:\users\mihai\desktop\magazin_masini\include\button.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1463677734 source:c:\users\mihai\desktop\magazin_masini\src\button.cpp
+	"Button.h"
+
+1463760839 c:\users\mihai\desktop\magazin_masini\include\utils.h
+	<string>
+	"SFML/Graphics.hpp"
+
+1463712856 source:c:\users\mihai\desktop\magazin_masini\src\utils.cpp
+	<string>
+	"utils.h"
+
+1463706014 source:c:\users\mihai\desktop\magazin_masini\src\formfield.cpp
+	"FormField.h"
+
+1463705993 c:\users\mihai\desktop\magazin_masini\include\formfield.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1463705695 c:\users\mihai\desktop\magazin_masini\include\label.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1463706563 source:c:\users\mihai\desktop\magazin_masini\src\label.cpp
+	"Label.h"
+
+1463699610 source:c:\users\mihai\desktop\magazin_masini\src\checker.cpp
+	"Checker.h"
+
+1463699371 c:\users\mihai\desktop\magazin_masini\include\checker.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"UserManager.h"
+	"User.h"
+
+1463763221 source:c:\users\mihai\desktop\magazin_masini\src\carscreen.cpp
+	"CarScreen.h"
+
+1463776448 c:\users\mihai\desktop\magazin_masini\include\carscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Button.h"
+	"Label.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\main.cpp
+	<iostream>
+	<string>
+	<map>
+	"magazin.h"
+	<typeinfo>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\magazin.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"masina.h"
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"SplashScreen.h"
+	"LogInfoScreen.h"
+	"LogScreen.h"
+	"RegisterScreen.h"
+	"Menu.h"
+	"Screen.h"
+	"UserManager.h"
+	"MasinaManager.h"
+	"DisplayCarsScreen.h"
+	"User.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"CarScreen.h"
+	"MyCartScreen.h"
+	"MasinaDeCurse.h"
+	"MasinaSport.h"
+	"SUV.h"
+	"Limuzina.h"
+	"MyCart.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\masina.h
+	<iostream>
+	<string>
+	<map>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\utf.inl
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\string.inl
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\thread.inl
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\threadlocalptr.inl
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\vector2.inl
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\system\vector3.inl
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\contextsettings.hpp
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\window\windowstyle.hpp
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\rect.inl
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\primitivetype.hpp
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\glsl.inl
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1464100423 c:\users\vladoots\documents\github\car-store1\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\utils.h
+	<string>
+	"SFML/Graphics.hpp"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\splashscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\loginfoscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\button.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\logscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"User.h"
+	<Checker.h>
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\label.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\formfield.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\usermanager.h
+	"User.h"
+	<bits/stdc++.h>
+
+1464108466 c:\users\vladoots\documents\github\car-store1\include\user.h
+	<string>
+	"UserManager.h"
+	"MyCart.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\checker.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"UserManager.h"
+	"User.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\registerscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"Checker.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\menu.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+	"Button.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\screen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\masinamanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\displaycarsscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\carscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Button.h"
+	"Label.h"
+	"User.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\button.cpp
+	"Button.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\carscreen.cpp
+	"CarScreen.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\checker.cpp
+	"Checker.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\displaycarsscreen.cpp
+	"DisplayCarsScreen.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\formfield.cpp
+	"FormField.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\label.cpp
+	"Label.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\loginfoscreen.cpp
+	"LogInfoScreen.h"
+
+1464101893 source:c:\users\vladoots\documents\github\car-store1\src\logscreen.cpp
+	"LogScreen.h"
+
+1464108499 source:c:\users\vladoots\documents\github\car-store1\src\magazin.cpp
+	"Magazin.h"
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464101472 source:c:\users\vladoots\documents\github\car-store1\src\masina.cpp
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\masinamanager.cpp
+	"MasinaManager.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\menu.cpp
+	"Menu.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\registerscreen.cpp
+	"RegisterScreen.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\screen.cpp
+	"Screen.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1464109200 source:c:\users\vladoots\documents\github\car-store1\src\user.cpp
+	"User.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\usermanager.cpp
+	"UserManager.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\utils.cpp
+	<string>
+	"utils.h"
+
+1464115393 source:c:\users\vladoots\documents\github\car-store1\src\mycartscreen.cpp
+	"MyCartScreen.h"
+
+1464111770 c:\users\vladoots\documents\github\car-store1\include\mycartscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"User.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464040794 source:c:\users\mihai\desktop\project\car-store1\main.cpp
+	<iostream>
+	<string>
+	<map>
+	"magazin.h"
+	<typeinfo>
+
+1464037412 c:\users\mihai\desktop\project\car-store1\include\magazin.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"masina.h"
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"SplashScreen.h"
+	"LogInfoScreen.h"
+	"LogScreen.h"
+	"RegisterScreen.h"
+	"Menu.h"
+	"Screen.h"
+	"UserManager.h"
+	"MasinaManager.h"
+	"DisplayCarsScreen.h"
+	"User.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"CarScreen.h"
+	"MyCartScreen.h"
+	"MasinaDeCurse.h"
+	"MasinaSport.h"
+	"SUV.h"
+	"Limuzina.h"
+
+1464040587 c:\users\mihai\desktop\project\car-store1\include\masina.h
+	<iostream>
+	<string>
+	<map>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\utf.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\string.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\thread.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\threadlocalptr.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\vector2.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\system\vector3.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\contextsettings.hpp
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\window\windowstyle.hpp
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\rect.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\primitivetype.hpp
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\glsl.inl
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1464012208 c:\users\mihai\desktop\project\car-store1\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\utils.h
+	<string>
+	"SFML/Graphics.hpp"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\splashscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\loginfoscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\button.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\logscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"User.h"
+	<Checker.h>
+
+1464016698 c:\users\mihai\desktop\project\car-store1\include\label.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464016465 c:\users\mihai\desktop\project\car-store1\include\formfield.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\usermanager.h
+	"User.h"
+	<bits/stdc++.h>
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\user.h
+	<string>
+	"UserManager.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\checker.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"UserManager.h"
+	"User.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\registerscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"Checker.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\menu.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+	"Button.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\screen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464044186 c:\users\mihai\desktop\project\car-store1\include\masinamanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+
+1464018702 c:\users\mihai\desktop\project\car-store1\include\displaycarsscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\carscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Button.h"
+	"Label.h"
+
+1464012209 c:\users\mihai\desktop\project\car-store1\include\mycartscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Button.h"
+	"MasinaManager.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\button.cpp
+	"Button.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\carscreen.cpp
+	"CarScreen.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\checker.cpp
+	"Checker.h"
+
+1464046044 source:c:\users\mihai\desktop\project\car-store1\src\displaycarsscreen.cpp
+	"DisplayCarsScreen.h"
+
+1464016675 source:c:\users\mihai\desktop\project\car-store1\src\formfield.cpp
+	"FormField.h"
+
+1464016688 source:c:\users\mihai\desktop\project\car-store1\src\label.cpp
+	"Label.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\loginfoscreen.cpp
+	"LogInfoScreen.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\logscreen.cpp
+	"LogScreen.h"
+
+1464037431 source:c:\users\mihai\desktop\project\car-store1\src\magazin.cpp
+	"Magazin.h"
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464040699 source:c:\users\mihai\desktop\project\car-store1\src\masina.cpp
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464044203 source:c:\users\mihai\desktop\project\car-store1\src\masinamanager.cpp
+	"MasinaManager.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\menu.cpp
+	"Menu.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\mycartscreen.cpp
+	"MyCartScreen.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\registerscreen.cpp
+	"RegisterScreen.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\screen.cpp
+	"Screen.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\user.cpp
+	"User.h"
+
+1464012209 source:c:\users\mihai\desktop\project\car-store1\src\usermanager.cpp
+	"UserManager.h"
+
+1464036663 source:c:\users\mihai\desktop\project\car-store1\src\utils.cpp
+	<string>
+	"utils.h"
+
+1464038697 source:c:\users\mihai\desktop\project\car-store1\src\checkbox.cpp
+	"CheckBox.h"
+
+1464030112 c:\users\mihai\desktop\project\car-store1\include\checkbox.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464018171 c:\users\mihai\desktop\project\car-store1\include\checkboxmanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"CheckBox.h"
+
+1464018244 source:c:\users\mihai\desktop\project\car-store1\src\checkboxmanager.cpp
+	"CheckBoxManager.h"
+
+1464040757 source:c:\users\mihai\desktop\project\car-store1\src\masinadecurse.cpp
+	"MasinaDeCurse.h"
+
+1464040786 c:\users\mihai\desktop\project\car-store1\include\masinadecurse.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464040746 source:c:\users\mihai\desktop\project\car-store1\src\masinasport.cpp
+	"MasinaSport.h"
+
+1464040786 c:\users\mihai\desktop\project\car-store1\include\masinasport.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464040734 source:c:\users\mihai\desktop\project\car-store1\src\limuzina.cpp
+	"Limuzina.h"
+
+1464040786 c:\users\mihai\desktop\project\car-store1\include\limuzina.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464040771 source:c:\users\mihai\desktop\project\car-store1\src\suv.cpp
+	"SUV.h"
+
+1464040665 c:\users\mihai\desktop\project\car-store1\include\suv.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464115246 source:e:\github\car-store1\main.cpp
+	<iostream>
+	<string>
+	<map>
+	"magazin.h"
+	<typeinfo>
+
+1464089615 e:\github\car-store1\include\magazin.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"masina.h"
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"SplashScreen.h"
+	"LogInfoScreen.h"
+	"LogScreen.h"
+	"RegisterScreen.h"
+	"Menu.h"
+	"Screen.h"
+	"UserManager.h"
+	"MasinaManager.h"
+	"DisplayCarsScreen.h"
+	"User.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"CarScreen.h"
+	"MyCartScreen.h"
+	"MasinaDeCurse.h"
+	"MasinaSport.h"
+	"SUV.h"
+	"Limuzina.h"
+	"MyCart.h"
+
+1464113405 e:\github\car-store1\include\masina.h
+	<iostream>
+	<string>
+	<map>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\utf.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\string.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\thread.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\threadlocalptr.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\vector2.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\system\vector3.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\contextsettings.hpp
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\window\windowstyle.hpp
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\rect.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\primitivetype.hpp
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\glsl.inl
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1463845376 e:\github\car-store1\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1464113003 e:\github\car-store1\include\utils.h
+	<string>
+	"SFML/Graphics.hpp"
+
+1463843079 e:\github\car-store1\include\splashscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464046767 e:\github\car-store1\include\loginfoscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+
+1464046767 e:\github\car-store1\include\button.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464046767 e:\github\car-store1\include\logscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"User.h"
+	<Checker.h>
+
+1464046767 e:\github\car-store1\include\label.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464046767 e:\github\car-store1\include\formfield.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464093900 e:\github\car-store1\include\usermanager.h
+	"User.h"
+	<bits/stdc++.h>
+
+1464092407 e:\github\car-store1\include\user.h
+	<string>
+	"UserManager.h"
+	"MyCart.h"
+
+1464046767 e:\github\car-store1\include\checker.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"UserManager.h"
+	"User.h"
+
+1464046767 e:\github\car-store1\include\registerscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"Checker.h"
+
+1464046767 e:\github\car-store1\include\menu.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+	"Button.h"
+
+1463843079 e:\github\car-store1\include\screen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464100270 e:\github\car-store1\include\masinamanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+
+1464100270 e:\github\car-store1\include\displaycarsscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464046767 e:\github\car-store1\include\checkbox.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464046767 e:\github\car-store1\include\checkboxmanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"CheckBox.h"
+
+1464091878 e:\github\car-store1\include\carscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Button.h"
+	"Label.h"
+	"User.h"
+
+1464100270 e:\github\car-store1\include\mycartscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464114755 e:\github\car-store1\include\masinadecurse.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464114792 e:\github\car-store1\include\masinasport.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464114868 e:\github\car-store1\include\suv.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464114541 e:\github\car-store1\include\limuzina.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464046767 source:e:\github\car-store1\src\button.cpp
+	"Button.h"
+
+1464092513 source:e:\github\car-store1\src\carscreen.cpp
+	"CarScreen.h"
+
+1464046767 source:e:\github\car-store1\src\checkbox.cpp
+	"CheckBox.h"
+
+1464046767 source:e:\github\car-store1\src\checkboxmanager.cpp
+	"CheckBoxManager.h"
+
+1464046767 source:e:\github\car-store1\src\checker.cpp
+	"Checker.h"
+
+1464100271 source:e:\github\car-store1\src\displaycarsscreen.cpp
+	"DisplayCarsScreen.h"
+
+1464046767 source:e:\github\car-store1\src\formfield.cpp
+	"FormField.h"
+
+1464046767 source:e:\github\car-store1\src\label.cpp
+	"Label.h"
+
+1464114879 source:e:\github\car-store1\src\limuzina.cpp
+	"Limuzina.h"
+
+1464046767 source:e:\github\car-store1\src\loginfoscreen.cpp
+	"LogInfoScreen.h"
+
+1464094024 source:e:\github\car-store1\src\logscreen.cpp
+	"LogScreen.h"
+
+1464115246 source:e:\github\car-store1\src\magazin.cpp
+	"Magazin.h"
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464113697 source:e:\github\car-store1\src\masina.cpp
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464114753 source:e:\github\car-store1\src\masinadecurse.cpp
+	"MasinaDeCurse.h"
+
+1464046767 source:e:\github\car-store1\src\masinamanager.cpp
+	"MasinaManager.h"
+
+1464114819 source:e:\github\car-store1\src\masinasport.cpp
+	"MasinaSport.h"
+
+1464046767 source:e:\github\car-store1\src\menu.cpp
+	"Menu.h"
+
+1464100271 source:e:\github\car-store1\src\mycartscreen.cpp
+	"MyCartScreen.h"
+
+1464046767 source:e:\github\car-store1\src\registerscreen.cpp
+	"RegisterScreen.h"
+
+1464046767 source:e:\github\car-store1\src\screen.cpp
+	"Screen.h"
+
+1463843079 source:e:\github\car-store1\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1464115195 source:e:\github\car-store1\src\suv.cpp
+	"SUV.h"
+
+1464092203 source:e:\github\car-store1\src\user.cpp
+	"User.h"
+
+1464094053 source:e:\github\car-store1\src\usermanager.cpp
+	"UserManager.h"
+
+1464046767 source:e:\github\car-store1\src\utils.cpp
+	<string>
+	"utils.h"
+
+1464082093 source:e:\github\car-store1\include\satisfiedclientevent.cpp
+	<iostream>
+	"SatisfiedClientEvent.h"
+
+1464082302 e:\github\car-store1\include\satisfiedclientevent.h
+	<string>
+	"RandomEvent.h"
+
+1464082093 e:\github\car-store1\include\randomevent.h
+	<string>
+
+1464082093 source:e:\github\car-store1\src\randomevent.cpp
+	<iostream>
+	"RandomEvent.h"
+
+1464082102 source:e:\github\car-store1\src\stolencarevent.cpp
+	<iostream>
+	"StolenCarEvent.h"
+
+1464082297 e:\github\car-store1\include\stolencarevent.h
+	<string>
+	"RandomEvent.h"
+
+1464082398 source:e:\github\car-store1\src\satisfiedclientevent.cpp
+	<iostream>
+	"SatisfiedClientEvent.h"
+
+1464086624 e:\github\car-store1\include\mycart.h
+	<vector>
+	"Masina.h"
+
+1464086624 D
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\checkbox.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\checkboxmanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"CheckBox.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\masinadecurse.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\masinasport.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\suv.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\limuzina.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464112817 c:\users\vladoots\documents\github\car-store1\include\mycart.h
+	<vector>
+	"Masina.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\checkbox.cpp
+	"CheckBox.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\checkboxmanager.cpp
+	"CheckBoxManager.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\limuzina.cpp
+	"Limuzina.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\masinadecurse.cpp
+	"MasinaDeCurse.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\masinasport.cpp
+	"MasinaSport.h"
+
+1464115084 source:c:\users\vladoots\documents\github\car-store1\src\mycart.cpp
+	<iostream>
+	"MyCart.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\randomevent.cpp
+	<iostream>
+	"RandomEvent.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\randomevent.h
+	<string>
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\satisfiedclientevent.cpp
+	<iostream>
+	"SatisfiedClientEvent.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\satisfiedclientevent.h
+	<string>
+	"RandomEvent.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\stolencarevent.cpp
+	<iostream>
+	"StolenCarEvent.h"
+
+1464100424 c:\users\vladoots\documents\github\car-store1\include\stolencarevent.h
+	<string>
+	"RandomEvent.h"
+
+1464100424 source:c:\users\vladoots\documents\github\car-store1\src\suv.cpp
+	"SUV.h"
+
+1464100271 source:e:\github\car-store1\src\mycart.cpp
+	<iostream>
+	"MyCart.h"
+
+1464086647 gin/master
+
+1464123831 source:c:\users\mihai\desktop\car-store1-master\main.cpp
+	<iostream>
+	<string>
+	<map>
+	"magazin.h"
+	<typeinfo>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\magazin.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"masina.h"
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"SplashScreen.h"
+	"LogInfoScreen.h"
+	"LogScreen.h"
+	"RegisterScreen.h"
+	"Menu.h"
+	"Screen.h"
+	"UserManager.h"
+	"MasinaManager.h"
+	"DisplayCarsScreen.h"
+	"User.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"CarScreen.h"
+	"MyCartScreen.h"
+	"MasinaDeCurse.h"
+	"MasinaSport.h"
+	"SUV.h"
+	"Limuzina.h"
+	"MyCart.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\masina.h
+	<iostream>
+	<string>
+	<map>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\utf.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\string.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\thread.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\threadlocalptr.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\vector2.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\system\vector3.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\contextsettings.hpp
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\window\windowstyle.hpp
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\rect.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\primitivetype.hpp
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\glsl.inl
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\utils.h
+	<string>
+	"SFML/Graphics.hpp"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\splashscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\loginfoscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\button.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\logscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Button.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"User.h"
+	<Checker.h>
+
+1464117714 c:\users\mihai\desktop\car-store1-master\include\label.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\formfield.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\usermanager.h
+	"User.h"
+	<bits/stdc++.h>
+
+1464123754 c:\users\mihai\desktop\car-store1-master\include\user.h
+	<string>
+	"UserManager.h"
+	"MyCart.h"
+	"MasinaManager.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\mycart.h
+	<vector>
+	"Masina.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\checker.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"UserManager.h"
+	"User.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\registerscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"FormField.h"
+	"UserManager.h"
+	"Checker.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\menu.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+	"Button.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\screen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+
+1464125403 c:\users\mihai\desktop\car-store1-master\include\masinamanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\displaycarsscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\checkbox.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Label.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\checkboxmanager.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"CheckBox.h"
+
+1464121427 c:\users\mihai\desktop\car-store1-master\include\carscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Button.h"
+	"Label.h"
+	"User.h"
+
+1464122730 c:\users\mihai\desktop\car-store1-master\include\mycartscreen.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"Masina.h"
+	"MasinaManager.h"
+	"Screen.h"
+	"Button.h"
+	"utils.h"
+	"Label.h"
+	"User.h"
+	"CheckBox.h"
+	"CheckBoxManager.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\masinadecurse.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\masinasport.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\suv.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\limuzina.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\button.cpp
+	"Button.h"
+
+1464122270 source:c:\users\mihai\desktop\car-store1-master\src\carscreen.cpp
+	"CarScreen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\checkbox.cpp
+	"CheckBox.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\checkboxmanager.cpp
+	"CheckBoxManager.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\checker.cpp
+	"Checker.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\displaycarsscreen.cpp
+	"DisplayCarsScreen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\formfield.cpp
+	"FormField.h"
+
+1464117747 source:c:\users\mihai\desktop\car-store1-master\src\label.cpp
+	"Label.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\limuzina.cpp
+	"Limuzina.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\loginfoscreen.cpp
+	"LogInfoScreen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\logscreen.cpp
+	"LogScreen.h"
+
+1464122589 source:c:\users\mihai\desktop\car-store1-master\src\magazin.cpp
+	"Magazin.h"
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464118136 source:c:\users\mihai\desktop\car-store1-master\src\masina.cpp
+	"Masina.h"
+	<ctime>
+	<random>
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\masinadecurse.cpp
+	"MasinaDeCurse.h"
+
+1464125294 source:c:\users\mihai\desktop\car-store1-master\src\masinamanager.cpp
+	"MasinaManager.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\masinasport.cpp
+	"MasinaSport.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\menu.cpp
+	"Menu.h"
+
+1464120042 source:c:\users\mihai\desktop\car-store1-master\src\mycart.cpp
+	<iostream>
+	"MyCart.h"
+
+1464126584 source:c:\users\mihai\desktop\car-store1-master\src\mycartscreen.cpp
+	"MyCartScreen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\randomevent.cpp
+	<iostream>
+	"RandomEvent.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\randomevent.h
+	<string>
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\registerscreen.cpp
+	"RegisterScreen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\satisfiedclientevent.cpp
+	<iostream>
+	"SatisfiedClientEvent.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\satisfiedclientevent.h
+	<string>
+	"RandomEvent.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\screen.cpp
+	"Screen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\stolencarevent.cpp
+	<iostream>
+	"StolenCarEvent.h"
+
+1464079816 c:\users\mihai\desktop\car-store1-master\include\stolencarevent.h
+	<string>
+	"RandomEvent.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\suv.cpp
+	"SUV.h"
+
+1464123560 source:c:\users\mihai\desktop\car-store1-master\src\user.cpp
+	"User.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\usermanager.cpp
+	"UserManager.h"
+
+1464079816 source:c:\users\mihai\desktop\car-store1-master\src\utils.cpp
+	<string>
+	"utils.h"
+
+1464121817 source:c:\users\mihai\desktop\car-store1-master\src\cos.cpp
+	"Cos.h"
+
+1464121870 c:\users\mihai\desktop\car-store1-master\include\cos.h
+	<bits/stdc++.h>
+	"SFML/Graphics.hpp"
+	"utils.h"
+	"Masina.h"
+	"MasinaManager.h"
+	"Button.h"
+	"Label.h"
+	"User.h"
+	"UserManager.h"
+

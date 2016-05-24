@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="magazin_masini" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/magazin_masini" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/magazin_masini" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="SFML/bin" />
+			<Add directory="SFML/lib" />
+		</Linker>
+		<Unit filename="bazadedateuseri.txt" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/CarScreen.h" />
+		<Unit filename="include/CheckBox.h" />
+		<Unit filename="include/CheckBoxManager.h" />
+		<Unit filename="include/Checker.h" />
+		<Unit filename="include/Cos.h" />
+		<Unit filename="include/DisplayCarsScreen.h" />
+		<Unit filename="include/FormField.h" />
+		<Unit filename="include/Label.h" />
+		<Unit filename="include/Limuzina.h" />
+		<Unit filename="include/LogInfoScreen.h" />
+		<Unit filename="include/LogScreen.h" />
+		<Unit filename="include/Magazin.h" />
+		<Unit filename="include/Masina.h" />
+		<Unit filename="include/MasinaDeCurse.h" />
+		<Unit filename="include/MasinaManager.h" />
+		<Unit filename="include/MasinaSport.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/MyCart.h" />
+		<Unit filename="include/MyCartScreen.h" />
+		<Unit filename="include/RandomEvent.h" />
+		<Unit filename="include/RegisterScreen.h" />
+		<Unit filename="include/SUV.h" />
+		<Unit filename="include/SatisfiedClientEvent.h" />
+		<Unit filename="include/Screen.h" />
+		<Unit filename="include/SplashScreen.h" />
+		<Unit filename="include/StolenCarEvent.h" />
+		<Unit filename="include/User.h" />
+		<Unit filename="include/UserManager.h" />
+		<Unit filename="include/utils.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/CarScreen.cpp" />
+		<Unit filename="src/CheckBox.cpp" />
+		<Unit filename="src/CheckBoxManager.cpp" />
+		<Unit filename="src/Checker.cpp" />
+		<Unit filename="src/Cos.cpp" />
+		<Unit filename="src/DisplayCarsScreen.cpp" />
+		<Unit filename="src/FormField.cpp" />
+		<Unit filename="src/Label.cpp" />
+		<Unit filename="src/Limuzina.cpp" />
+		<Unit filename="src/LogInfoScreen.cpp" />
+		<Unit filename="src/LogScreen.cpp" />
+		<Unit filename="src/Magazin.cpp" />
+		<Unit filename="src/Masina.cpp" />
+		<Unit filename="src/MasinaDeCurse.cpp" />
+		<Unit filename="src/MasinaManager.cpp" />
+		<Unit filename="src/MasinaSport.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/MyCart.cpp" />
+		<Unit filename="src/MyCartScreen.cpp" />
+		<Unit filename="src/RandomEvent.cpp" />
+		<Unit filename="src/RegisterScreen.cpp" />
+		<Unit filename="src/SUV.cpp" />
+		<Unit filename="src/SatisfiedClientEvent.cpp" />
+		<Unit filename="src/Screen.cpp" />
+		<Unit filename="src/SplashScreen.cpp" />
+		<Unit filename="src/StolenCarEvent.cpp" />
+		<Unit filename="src/User.cpp" />
+		<Unit filename="src/UserManager.cpp" />
+		<Unit filename="src/utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
